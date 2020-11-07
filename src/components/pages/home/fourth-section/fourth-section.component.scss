@@ -1,0 +1,126 @@
+.fourth-section {
+    padding: 50px 0;
+}
+
+.fourth-section-row {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap !important;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: -15px;
+    align-content: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    h1 {
+        font-family: 'Open Sans';
+        font-size: 40px;
+        font-weight: 700;
+        color: #183059;
+    }
+}
+
+.fourth-section-col > div > span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #183059;
+}
+
+.col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.fourth-section-text-wrapper {
+    max-width: 540px;
+    padding-top: 15px;
+    padding-bottom: 167px;
+
+    .wrapped-text-container {
+        margin-bottom: 20px;
+
+        span {
+            font-weight: 600;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 22px;
+            color: #183059;
+        }
+
+        img {
+            margin-right: 2%;
+        }
+    }
+}
+
+.fourth-section-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #536C97;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        padding-right: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .fourth-section-text-wrapper {
+        padding-bottom: 65px;
+    }
+
+    .col {
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .fourth-section-img-wrapper {
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .fourth-section-row {
+        text-align: center !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+
+}
+
+.dark {
+    color: #1c2237;
+}
+
+.darkBg {
+    background-color: #EEF1F7;
+}
+
+.lightBg {
+    background-color: white;
+}
