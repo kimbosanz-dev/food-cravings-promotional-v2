@@ -29,12 +29,26 @@ function FirstSectionComponent({
                                 <div>
                                     <Link to="/">
                                         <Button buttonSize='btn--wide' buttonColor='primary'>
-                                            <span>Get in on PlayStore</span>
+                                            <div style={{
+                                                display: 'flex',
+                                                flexWrap: 'nowrap',
+                                                justifyContent: 'center',
+                                            }}>
+                                                <img style={{marginTop: '0'}}src="images/google-playstore-icon.png" alt="playstore.png" height="25" width="25"/>
+                                                <span>Get in on Play</span> 
+                                            </div>
                                         </Button>
                                     </Link>
                                     <Link to="/">
                                         <Button buttonSize='btn--wide' buttonColor='primary'>
-                                            <span>Download on the App Store</span>
+                                            <div style={{
+                                                display: 'flex',
+                                                flexWrap: 'nowrap',
+                                                justifyContent: 'center',
+                                            }}>
+                                                <img style={{marginTop: '0', marginBottom: '30px'}}src="images/apple-icon.png" alt="apple.png" height="40" width="40"/>
+                                                <span>Download on the App Store</span>
+                                            </div>
                                         </Button>
                                     </Link>
                                 </div>

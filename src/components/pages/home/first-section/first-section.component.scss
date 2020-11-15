@@ -52,11 +52,13 @@
 .first-section-img-wrapper {
     display: flex;
     flex-wrap: nowrap;
-    max-width: 450px;
+    max-width: 400px;
 
     .first-section-img {
         max-width: 100%;
         padding-right: 0;
+        width: 100%;
+        height: auto;
         margin: 0 0 0 2rem;
     }
 }
@@ -85,10 +87,10 @@ img {
         flex-basis: 100%;
     }
 
-    // .first-section-img {
-    //     height: 340px;
-    //     width: 220px;
-    // }
+    .first-section-img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .dark {
