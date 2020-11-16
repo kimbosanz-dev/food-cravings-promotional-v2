@@ -55,17 +55,23 @@ function ThirdSectionComponent({
                                         driven app, supporting each other greatly helps <br/>
                                         everyone to grow!</p>
                                 </div>
-                                <div>
-                                    <Link to="/">
-                                        <Button buttonSize='btn--wide' buttonColor='primary'>
-                                            <span>Get in on PlayStore</span>
-                                        </Button>
-                                    </Link>
-                                    <Link to="/">
-                                        <Button buttonSize='btn--wide' buttonColor='primary'>
-                                            <span>Download on the App Store</span>
-                                        </Button>
-                                    </Link>
+                                <div className="btn-container">
+                                        <Link to="/">
+                                            <Button buttonSize='btn--medium' buttonColor='primary'>
+                                                    <img style={{marginTop: '0', marginRight: '15px'}}src="images/google-playstore-icon.png" alt="playstore.png" height="25" width="25"/>
+                                                    <span>
+                                                        Get in on PlayStore
+                                                    </span>
+                                            </Button>
+                                        </Link>
+                                        <Link to="/">
+                                            <Button buttonSize='btn--medium' buttonColor='primary'>
+                                                    <img style={{marginTop: '-6px', marginBottom: 'auto', marginRight: '0px'}} src="images/apple-icon.png" alt="apple.png" height="40" width="40"/>
+                                                    <span>
+                                                        Download on the App Store
+                                                    </span>
+                                            </Button>
+                                        </Link>
                                 </div>
                             </div>
                         </div>

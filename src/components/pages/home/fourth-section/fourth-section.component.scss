@@ -6,6 +6,11 @@
     align-items: center;
     display: flex;
     flex-wrap: nowrap !important;
+
+    .col {
+        margin-right: 10px;
+        margin-left: 30px;
+    }
 }
 
 .row {
@@ -24,6 +29,7 @@
         color: #183059;
     }
 }
+
 
 .fourth-section-col > div > span {
     font-style: normal;

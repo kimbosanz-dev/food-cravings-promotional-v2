@@ -31,9 +31,9 @@
     text-decoration: none;
     font-size: 2rem;
     display: flex;
-    align-items: center;
-    margin-left: 145px;
-    margin-top: 20px;
+    align-items: space-between;
+    margin-left: 40px;
+    margin-top: 32px;
 
     .navbar-icon {
         margin-right: 0.5rem;
@@ -48,6 +48,7 @@
         font-weight: 500;
         font-size: 25px;
         font-family: 'Rubik';
+        margin-top: 5px;
     }
   }
   
@@ -57,7 +58,7 @@
     list-style: none;
     text-align: center;
     justify-content: end;
-    margin-right: 145px;
+    margin-right: 40px;
     margin-top: 10px;
   }
   
@@ -140,7 +141,7 @@
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
-      margin: 16px;
+      margin: 0px 0px 0px -25px;
 
       .brand-name {
         font-weight: 500;
@@ -157,7 +158,7 @@
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;
-      margin: 16px;
+      margin: 0px;
     }
   
     .fa-times {
@@ -171,5 +172,33 @@
       align-items: center;
       width: 100%;
       height: 120px;
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    .navbar-logo {
+      margin-left: 0px;
+      max-width: 100%;
+      margin-right: 154px;
+      margin-top: 10px;
+      width: 235px;
+      height: 26px;
+
+      .navbar-icon {
+        width: 37px;
+        height: 34px;
+        margin: 5px 0 0 -52px;
+      }
+    }
+
+    .menu-icon {
+      margin-top: -8px;
+      margin-right: -8px;
+      margin-top: 3px;
+    }
+
+    .brand-name {
+      margin-top: 7px !important;
+      margin-left: 4px;
     }
   }

@@ -23,8 +23,7 @@ function FourthSectionComponent({
                             <h1>{headline}</h1>
                         </div>
                     </div>
-                    <div className="row fourth-section-row" style={{
-                    }}>
+                    <div className="row fourth-section-row">
                         <div className="col fourth-section-col">
                             <img src={imgDeal} height={height} width={width} alt="deal-template" />
                             <div className="content">
